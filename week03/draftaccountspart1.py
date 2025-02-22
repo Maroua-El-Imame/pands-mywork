@@ -3,6 +3,7 @@
 # messing around with codes 
 
 accountnumber= "1234567890"
+'''
 lastfourdigits=accountnumber[6:]
 print("The account number is: " + accountnumber )
 
@@ -28,3 +29,14 @@ print("Account number only showing last for digits is : " + z)
 
 enter10digitsaccountnumber = input("Enter your account number:")
 print(z)
+
+z=accountnumber.replace(accountnumber[6:0] , "xxxxxx") interesting 
+
+'''
+
+
+accountnumber= "1234567890"
+
+print(accountnumber[6:])
+accountnumber4digits = accountnumber.replace(accountnumber[0:6] , "xxxxxx")
+print(accountnumber4digits)
