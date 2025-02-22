@@ -38,7 +38,16 @@ print(accountnumber[6:])
 accountnumber4digits = accountnumber.replace(accountnumber[0:6] , "xxxxxx")
 print(accountnumber4digits)
 '''
+accountnumber= "1234567890"
 
-accountnumber= input("Enter your account:")
+accountnumber= input("Enter your account number of 10 digits:")
 z=accountnumber.replace(accountnumber[0:6] , "xxxxxx")
-print("Your account number's 4 last digits : " + z)
+print("Your account number's last 4 digits : " + z)
+
+
+
+
+randomnumber = "1236547896541236654478963225"
+randomnumber= input("Enter yout account number of any length: ")
+y=randomnumber.replace(randomnumber[:-4],"xxxxxx")
+print("your account number's last 4 digits : " + y)
