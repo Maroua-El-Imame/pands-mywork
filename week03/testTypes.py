@@ -15,5 +15,3 @@ print(f'variable {'fl'} is of type: {type(fl)} and value:{(fl)}'.format('i', typ
 print(f'variable {'isa'} is of type: {type(isa)} and value:{(isa)}'.format('i', type(i), i))
 print(f'variable {'memo'} is of type: {type(memo)} and value:{(memo)}'.format('i', type(i), i))
 print(f'variable {'lots'} is of type: {type(lots)} and value:{(lots)}'.format('i', type(i), i))
-
-print(f'variable {'lots'} is of type: {type(lots)} and value:{(lots)}'.format('i', type(i), i))
