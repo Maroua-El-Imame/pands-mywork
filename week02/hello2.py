@@ -3,13 +3,20 @@
 # author: Maroua
 
 
-'''
+
 name = input("Enter your name:")
 print('Hello ' + name)
-'''
 
 name = input("Enter your name:")
+
 print('Hello '+ name + '\nNice to meet you')
 
-# if the space wasn't inside the "", the program simply wouldn't print the space
+print(f'Hello {name}\nNice to meet you')
+
+print(f"Hello " + name + " Nice to meet you ")
+
+
+
+
+
 
