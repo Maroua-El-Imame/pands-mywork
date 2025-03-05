@@ -38,8 +38,6 @@ else: # the only option left
 percentage = float(input("Enter the percentage: "))
 if percentage < 0 or percentage > 100:
     print ("Please enter a number between 0 and 100")
-if percentage < 0 or percentage > 100:
-    print ("Please enter a number between 0 and 100")
 elif round(percentage) < 40:                
     print ("Fail")
 elif round(percentage) < 50:               
