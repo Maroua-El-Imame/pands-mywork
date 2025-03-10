@@ -1,6 +1,6 @@
 # average.py
 # This program reads in numbers until the user enters 0
-# it will then print back out again the used numbers and their average.
+# it will then print back out again the used numbers and their average
 # Author : Maroua EL imame
 
 numbers = []
