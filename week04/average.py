@@ -1,6 +1,7 @@
+# average.py
 # This program reads in numbers until the user enters 0
-# it will them print back out again and their average
-
+# it will then print back out again the used numbers and their average
+# Author : Maroua EL imame
 
 numbers = []
 # first number then we check if it is 0 in the while loop
