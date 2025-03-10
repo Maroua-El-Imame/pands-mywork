@@ -1,6 +1,6 @@
 # guess2.py
 # this program tells the user if their guess is too high or too low, each time they guess the number. 
-# HINT: put an if statement inside the while loop
+# HINT: put an if statement inside the while loop.
 
 
 numberToGuess = 30
@@ -20,3 +20,4 @@ print("Well done! Yes the number was ", numberToGuess)
 
 import random
 print(random.randrange(1,100))
+
