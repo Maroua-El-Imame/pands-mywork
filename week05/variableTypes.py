@@ -32,14 +32,14 @@ me = {
 #e. ages                                          list      
 #f. months                                        tuple
 #g. months[1]                                     string
-#h. book                                          dictionnary
-#i. stuff                                       
-#j. stuff[2]                 dictionary                     
-#k. someone                                     
-#l. someone["firstname"]                                        
-#m. me                                      
-#n. me["teaching"]                                      
-#o. me["teaching"][0]["semester"]                                       
+#h. book                                          dict
+#i. stuff                                         list
+#j. stuff[2]                                      boolean
+#k. someone                                       dict
+#l. someone["firstname"]                          str             
+#m. me                                            dict
+#n. me["teaching"]                                key value      
+#o. me["teaching"][0]["semester"]                 key value pair                      
 #p is a trick question look at it carefully                                     
-#p. me["teaching"][0]["coursename"]                                     
+#p. me["teaching"][0]["coursename"]               no value assigned ! as the value on dict, has a capital N                    
 
