@@ -14,16 +14,17 @@ def doAdd():
     print(" add a student")
     return choice
 def doView():
-    print("view student")
+    print("view a student")
     return choice
 
 
 #testing the function
 # make a variable out of the argument needed
 choice = fromMenu()
-if choice == "(a)":
+if choice == "a":
     doAdd()
-elif choice == "(v)":
+    choice = input("Type one letter a or v or q :  ")
+elif choice == "v":
     doView()
-elif choice == "(q)":
+elif choice == "q":
     print("quit")
